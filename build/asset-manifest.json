@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/onloop/static/css/main.0da2a9c3.css",
+    "main.js": "/onloop/static/js/main.bb84c48a.js",
+    "static/media/banner.png": "/onloop/static/media/banner.aaa622aac44e29b159da.png",
+    "static/media/CARRITO.svg": "/onloop/static/media/CARRITO.005ba12ae432dca0747493f58a6722be.svg",
+    "static/media/ONLOOP_ISOTIPO.svg": "/onloop/static/media/ONLOOP_ISOTIPO.c8a172eb7f16bace5bde282182c92950.svg",
+    "static/media/STARIMPORT_LOGO.svg": "/onloop/static/media/STARIMPORT_LOGO.f3d500f564821ce17264ac22c2632469.svg",
+    "static/media/PROLOCKERS_LOGO.svg": "/onloop/static/media/PROLOCKERS_LOGO.84ba2b4af7b50c869aa678ce4c6ea6eb.svg",
+    "static/media/PROSILLAS_LOGO.svg": "/onloop/static/media/PROSILLAS_LOGO.175f99ef10b1c44f759810249e7915b1.svg",
+    "static/media/STARPET_LOGO.svg": "/onloop/static/media/STARPET_LOGO.1eafe096f4bf7f6b72717169f6c5dae2.svg",
+    "static/media/MILOCKERS_LOGO.svg": "/onloop/static/media/MILOCKERS_LOGO.8cdc1e605d527fa88e3fc00b6ccff356.svg",
+    "static/media/visa.svg": "/onloop/static/media/visa.0744bcbd8286fb95c055159cca4d169e.svg",
+    "static/media/LOGO_ONLOOP.svg": "/onloop/static/media/LOGO_ONLOOP.5c4173a8a8daae03314a8543a3cb07db.svg",
+    "static/media/facebook.svg": "/onloop/static/media/facebook.0f17ebfb4422a5cfe87c21f740a5fefe.svg",
+    "static/media/instagram.svg": "/onloop/static/media/instagram.fe2ff42ac35007fba6237e8b55c7378c.svg",
+    "static/media/usuario.svg": "/onloop/static/media/usuario.0f1fda7650d01911765ab6b7008a3282.svg",
+    "static/media/tarjeta.svg": "/onloop/static/media/tarjeta.9232a04fd9067a2695287ee62096c53d.svg",
+    "static/media/mercadopago.svg": "/onloop/static/media/mercadopago.222433dab1040eb49c0229cd492b2303.svg",
+    "static/media/revicons.eot": "/onloop/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/onloop/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/onloop/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/onloop/index.html",
+    "main.0da2a9c3.css.map": "/onloop/static/css/main.0da2a9c3.css.map",
+    "main.bb84c48a.js.map": "/onloop/static/js/main.bb84c48a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0da2a9c3.css",
+    "static/js/main.bb84c48a.js"
+  ]
+}
