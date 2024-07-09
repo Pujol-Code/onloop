@@ -228,6 +228,16 @@
         "imagen": "./Image/Producto/maletagrua.jpg",
         "precio": 45000,
         "stock": 15
-    }
+    },
+    {
+        "id": 24,
+        "titulo": "Toy",
+        "descripcion": "Fun and colorful toy for kids.",
+        "categoria": "Juguetes",
+        "marca": "ToyBrand",
+        "imagen": "./Image/Producto/juguete.svg",
+        "precio": 30000,
+        "stock": 25
+      }
 
 ]

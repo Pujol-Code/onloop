@@ -17,7 +17,6 @@ import Carito from './Compra/Carito';
 import Onloop from '../Image/LOGO_ONLOOP.svg';
 import carritoImg from '../Image/CARRITO.svg';
 import usuarioImg from '../Image/usuario.svg';
-import BuscarInicio from './Inicio/BuscarInicio';
 
 const Nav = styled.nav`
   display: flex;
