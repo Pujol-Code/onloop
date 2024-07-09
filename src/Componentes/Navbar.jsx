@@ -17,6 +17,7 @@ import Carito from './Compra/Carito';
 import Onloop from '../Image/LOGO_ONLOOP.svg';
 import carritoImg from '../Image/CARRITO.svg';
 import usuarioImg from '../Image/usuario.svg';
+import BuscarInicio from './Inicio/BuscarInicio';
 
 const Nav = styled.nav`
   display: flex;
@@ -133,6 +134,7 @@ const Navbar = ({ fixed }) => {
         </CancelButton>
       ) : (
         <>
+          {/* <BuscarInicio /> */}
           <Menu>
             <MenuItem component={Link} to="/productos">Productos</MenuItem>
             <MenuItem component={Link} to="/nosotros">Nosotros</MenuItem>
