@@ -104,7 +104,7 @@ const ConfirmacionCompra = () => {
     };
 
     return (
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%', margin: '2rem 0' }}> {/* Añadido margen superior e inferior */}
             <Stepper nonLinear activeStep={activeStep}>
                 {steps.map((label, index) => (
                     <Step key={label} completed={completed[index]}>

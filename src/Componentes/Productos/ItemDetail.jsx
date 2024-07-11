@@ -3,6 +3,7 @@ import { toCapital } from '../../Helpers/toCapital';
 import ItemCount from './Itemcount';
 import { CartContext } from '../../Context/CardContext';
 import { Box, Typography, Snackbar } from '@mui/material';
+import imageMapping from '../../Utils/imageMapping'; // Importa el mapeo de imágenes
 
 const ItemDetail = ({ item }) => {
   const { agregarAlCarrito } = useContext(CartContext);
@@ -36,13 +37,18 @@ const ItemDetail = ({ item }) => {
         flexDirection: 'column',
         gap: '1rem',
         padding: '1rem',
+        margin: '4rem 0', // Agrega margen superior e inferior
         '@media (min-width: 768px)': {
           flexDirection: 'row',
         },
       }}
     >
       <Box sx={{ flex: 1 }}>
-        <img src={item.imagen} alt={item.titulo} style={{ width: '100%', objectFit: 'cover' }} />
+        <img
+          src={imageMapping[item.imagen] || item.imagen} // Usa la imagen local si está en el mapeo, de lo contrario usa la URL
+          alt={item.titulo}
+          style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+        />
       </Box>
       <Box
         sx={{

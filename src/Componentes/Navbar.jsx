@@ -69,6 +69,7 @@ const MenuItem = styled(Button)`
 const Hamburger = styled.div`
   display: none;
   cursor: pointer;
+  margin-right: auto; /* Ensures the hamburger is aligned to the left */
 
   @media (max-width: 768px) {
     display: block;
@@ -123,17 +124,19 @@ const Navbar = ({ fixed }) => {
 
   return (
     <Nav fixed={fixed}>
-      <Hamburger onClick={toggleMenuDrawer(true)}>
-        <MenuIcon style={{ color: 'white' }} />
-      </Hamburger>
-      <LogoButton to="/" />
       {isConfirmationPage ? (
+        <>
+      <LogoButton to="/" />
         <CancelButton component={Link} to="/" variant="outlined">
           Cancelar pedido
         </CancelButton>
+        </>
       ) : (
         <>
-          {/* <BuscarInicio /> */}
+          <Hamburger onClick={toggleMenuDrawer(true)}>
+            <MenuIcon style={{ color: 'white' }} />
+          </Hamburger>
+          <LogoButton to="/" />
           <Menu>
             <MenuItem component={Link} to="/productos">Productos</MenuItem>
             <MenuItem component={Link} to="/nosotros">Nosotros</MenuItem>

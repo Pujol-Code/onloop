@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 const SeleccionMedioPago = ({ medioPago, mediosPago, handleMedioPagoChange, handleReset }) => {
     return (
         <React.Fragment>
-            <Typography sx={{ mt: 2, mb: 1, textAlign: 'center' }}>
-                <h2>Seleccione sus medios de pago</h2>
+            <Typography variant="h2" sx={{ mt: 2, mb: 1, textAlign: 'center' }}>
+                Seleccione sus medios de pago
             </Typography>
             <Box 
                 sx={{ 

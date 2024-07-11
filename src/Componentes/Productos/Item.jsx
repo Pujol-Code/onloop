@@ -1,12 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
-
-// Importa las imágenes locales
-import Image104 from '../../Image/Producto/104.jpg';
-import ImageLKI12 from '../../Image/Producto/LKI12.png';
-import ImageMaletagrua from '../../Image/Producto/maletagrua.jpg';
-import Juguete from '../../Image/Producto/juguete.svg';
+import imageMapping from '../../Utils/imageMapping'; // Importa el mapeo de imágenes
 
 const toCapital = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -14,14 +9,6 @@ const toCapital = (string) => {
 
 const formatPrice = (price) => {
   return price.toLocaleString('es-CL', { style: 'currency', currency: 'CLP' });
-};
-
-// Asocia las imágenes locales con sus nombres de archivo
-const imageMapping = {
-  './Image/Producto/104.jpg': Image104,
-  './Image/Producto/LKI12.png': ImageLKI12,
-  './Image/Producto/maletagrua.jpg': ImageMaletagrua,
-  './Image/Producto/juguete.svg': Juguete,
 };
 
 const Item = ({ producto }) => {
@@ -33,7 +20,6 @@ const Item = ({ producto }) => {
         display: 'flex',
         flexDirection: 'column',
         gap: '1rem',
-        // backgroundColor: 'rgba(238, 238, 238)',
         height: '100%',
         padding: '1rem',
         textDecoration: 'none',

@@ -5,7 +5,7 @@
         "descripcion": "Aenean auctor gravida sem.",
         "categoria": "Medias",
         "marca": "Prolockers",
-        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "imagen": "./Image/Producto/1.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -15,7 +15,7 @@
         "descripcion": "Nulla ut erat id mauris vulputate elementum.",
         "categoria": "Medias",
         "marca": "Starpet",
-        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "imagen": "./Image/Producto/2.png",
         "precio": 1500,
         "stock": 10
     },
@@ -25,7 +25,7 @@
         "descripcion": "Aenean auctor gravida sem.",
         "categoria": "Pantalones",
         "marca": "Prosilla",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/3.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -35,7 +35,7 @@
         "descripcion": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
         "categoria": "Remeras",
         "marca": "Starimport",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/4.svg",
         "precio": 1500,
         "stock": 10
     },
@@ -45,7 +45,7 @@
         "descripcion": "Sed accumsan felis.",
         "categoria": "Buzos",
         "marca": "Prolockers",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/5.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -55,7 +55,7 @@
         "descripcion": "In hac habitasse platea dictumst.",
         "categoria": "Remeras",
         "marca": "Milockers",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/6.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -65,7 +65,7 @@
         "descripcion": "Morbi vel lectus in quam fringilla rhoncus.",
         "categoria": "Buzos",
         "marca": "Prosilla",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/7.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -75,7 +75,7 @@
         "descripcion": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
         "categoria": "Pantalones",
         "marca": "Starimport",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/8.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -85,7 +85,7 @@
         "descripcion": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
         "categoria": "Pantalones",
         "marca": "Prolockers",
-        "imagen": "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "imagen": "./Image/Producto/9.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -95,7 +95,7 @@
         "descripcion": "Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
         "categoria": "Remeras",
         "marca": "Milockers",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/10.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -105,7 +105,7 @@
         "descripcion": "Mauris sit amet eros.",
         "categoria": "Remeras",
         "marca": "Prosilla",
-        "imagen": "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "imagen": "./Image/Producto/11.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -115,7 +115,7 @@
         "descripcion": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
         "categoria": "Medias",
         "marca": "Starimport",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/12.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -125,7 +125,7 @@
         "descripcion": "Aenean sit amet justo.",
         "categoria": "Medias",
         "marca": "Starpet",
-        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "imagen": "./Image/Producto/13.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -135,7 +135,7 @@
         "descripcion": "In blandit ultrices enim.",
         "categoria": "Buzos",
         "marca": "Milockers",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/14.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -145,7 +145,7 @@
         "descripcion": "Nullam varius.",
         "categoria": "Remeras",
         "marca": "Prosilla",
-        "imagen": "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "imagen": "./Image/Producto/15.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -155,7 +155,7 @@
         "descripcion": "Cras non velit nec nisi vulputate nonummy.",
         "categoria": "Medias",
         "marca": "Starimport",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/16.jpg",
         "precio": 15,
         "stock": 10
     },
@@ -165,7 +165,7 @@
         "descripcion": "Nulla tempus.",
         "categoria": "Remeras",
         "marca": "Prolockers",
-        "imagen": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+        "imagen": "./Image/Producto/17.png",
         "precio": 15000,
         "stock": 10
     },
@@ -175,7 +175,7 @@
         "descripcion": "Etiam justo.",
         "categoria": "Pantalones",
         "marca": "Milockers",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/18.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -185,7 +185,7 @@
         "descripcion": "Morbi non lectus.",
         "categoria": "Buzos",
         "marca": "Starpet",
-        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "imagen": "./Image/Producto/19.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -195,7 +195,7 @@
         "descripcion": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
         "categoria": "Buzos",
         "marca": "Starimport",
-        "imagen": "http://dummyimage.com/200x100.png/dddddd/000000",
+        "imagen": "./Image/Producto/20.jpg",
         "precio": 1500,
         "stock": 10
     },
@@ -205,7 +205,7 @@
         "descripcion": "High-performance laptop for gaming and work.",
         "categoria": "Electrónica",
         "marca": "TechBrand",
-        "imagen": "./Image/Producto/104.jpg",
+        "imagen": "./Image/Producto/21.jpg",
         "precio": 1200000,
         "stock": 5
     },
@@ -215,7 +215,7 @@
         "descripcion": "Comfortable and stylish running shoes.",
         "categoria": "Calzado",
         "marca": "FitWear",
-        "imagen": "./Image/Producto/LKI12.png",
+        "imagen": "./Image/Producto/22.jpg",
         "precio": 60000,
         "stock": 20
     },
@@ -225,7 +225,7 @@
         "descripcion": "Spacious and durable travel bag.",
         "categoria": "Accesorios",
         "marca": "TravelEase",
-        "imagen": "./Image/Producto/maletagrua.jpg",
+        "imagen": "./Image/Producto/23.jpg",
         "precio": 45000,
         "stock": 15
     },
@@ -235,7 +235,7 @@
         "descripcion": "Fun and colorful toy for kids.",
         "categoria": "Juguetes",
         "marca": "ToyBrand",
-        "imagen": "./Image/Producto/juguete.svg",
+        "imagen": "./Image/Producto/24.jpg",
         "precio": 30000,
         "stock": 25
       }

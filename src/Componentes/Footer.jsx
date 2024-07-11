@@ -19,8 +19,8 @@ const Footer = () => {
             <img src={IsotipoOnLoop} alt="OnLoop Logo" height="100" />
           </Box>
           <Box mt={2} textAlign={isSmallScreen ? 'center' : 'left'} mx={isSmallScreen ? 0 : 12}>
-            <img src={FacebookLogo} alt="Facebook" height="20" style={{ marginRight: '8px' }} />
-            <img src={InstagramLogo} alt="Instagram" height="20" />
+            <img src={FacebookLogo} alt="Facebook" height="40" style={{ marginRight: '8px' }} />
+            <img src={InstagramLogo} alt="Instagram" height="40" />
           </Box>
         </Grid>
         <Grid item xs={12} sm={3} textAlign="center">

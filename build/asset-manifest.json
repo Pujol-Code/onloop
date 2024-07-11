@@ -1,8 +1,12 @@
 {
   "files": {
     "main.css": "/onloop/static/css/main.0da2a9c3.css",
-    "main.js": "/onloop/static/js/main.15662b59.js",
+    "main.js": "/onloop/static/js/main.ff822747.js",
     "static/media/banner.png": "/onloop/static/media/banner.aaa622aac44e29b159da.png",
+    "static/media/maletagrua.jpg": "/onloop/static/media/maletagrua.a375660cfac25bbdc781.jpg",
+    "static/media/104.jpg": "/onloop/static/media/104.d3ecf34ccedd2649e5f6.jpg",
+    "static/media/LKI12.png": "/onloop/static/media/LKI12.e639d84e28a9c34b5217.png",
+    "static/media/juguete.svg": "/onloop/static/media/juguete.05cb324854381942414d40b70a4d6299.svg",
     "static/media/CARRITO.svg": "/onloop/static/media/CARRITO.005ba12ae432dca0747493f58a6722be.svg",
     "static/media/ONLOOP_ISOTIPO.svg": "/onloop/static/media/ONLOOP_ISOTIPO.c8a172eb7f16bace5bde282182c92950.svg",
     "static/media/STARIMPORT_LOGO.svg": "/onloop/static/media/STARIMPORT_LOGO.f3d500f564821ce17264ac22c2632469.svg",
@@ -22,10 +26,10 @@
     "static/media/revicons.woff": "/onloop/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/onloop/index.html",
     "main.0da2a9c3.css.map": "/onloop/static/css/main.0da2a9c3.css.map",
-    "main.15662b59.js.map": "/onloop/static/js/main.15662b59.js.map"
+    "main.ff822747.js.map": "/onloop/static/js/main.ff822747.js.map"
   },
   "entrypoints": [
     "static/css/main.0da2a9c3.css",
-    "static/js/main.15662b59.js"
+    "static/js/main.ff822747.js"
   ]
 }
