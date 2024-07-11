@@ -14,6 +14,7 @@ import ConfirmacionCompra from './Componentes/Compra/ConfirmacionCompra';
 import Login from './Componentes/Login';
 import Blog from './Componentes/Blog';
 import { UserProvider } from './Context/UserContext';
+import ScrollToTop from './Componentes/ScrollToTop'; // Importa ScrollToTop
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <UserProvider>
         <CartProvider>
           <BrowserRouter basename="/onloop">
+            <ScrollToTop /> {/* Añade ScrollToTop aquí */}
             {/* Barra */}
             <Navbar />
             {/* Main */}
