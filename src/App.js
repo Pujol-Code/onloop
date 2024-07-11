@@ -16,14 +16,13 @@ import Blog from './Componentes/Blog';
 import { UserProvider } from './Context/UserContext';
 
 function App() {
-
   return (
     <div>
       <UserProvider>
         <CartProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/onloop">
             {/* Barra */}
-              <Navbar />
+            <Navbar />
             {/* Main */}
             <Routes>
               <Route path="/" element={<Inicio />} />
