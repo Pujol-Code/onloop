@@ -22,7 +22,7 @@ function App() {
       <UserProvider>
         <CartProvider>
           <BrowserRouter basename="/onloop">
-            <ScrollToTop /> {/* Añade ScrollToTop aquí */}
+            <ScrollToTop />
             {/* Barra */}
             <Navbar />
             {/* Main */}

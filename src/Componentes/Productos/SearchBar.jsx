@@ -15,8 +15,8 @@ const SearchBar = ({
   const brands = ["Prolockers", "Milockers", "Prosilla", "Starimport", "Starpet"];
 
   return (
-    <Box sx={{ margin: '1rem 0' }}>
-      <Grid container spacing={2}>
+    <Box sx={{ margin: '2rem', padding: '1rem', border: '1px solid #ddd', borderRadius: '8px' }}>
+      <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
           <TextField
             label="Buscar Productos"
@@ -25,6 +25,7 @@ const SearchBar = ({
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
             fullWidth
+            sx={{ marginBottom: '1rem' }}
           />
         </Grid>
         <Grid item xs={12} sm={3}>
@@ -34,6 +35,7 @@ const SearchBar = ({
               value={sortOption}
               onChange={(e) => setSortOption(e.target.value)}
               label="Ordenar por"
+              sx={{ marginBottom: '1rem' }}
             >
               <MenuItem value="default">Seleccione</MenuItem>
               <MenuItem value="titleAsc">Nombre (A-Z)</MenuItem>
@@ -50,6 +52,7 @@ const SearchBar = ({
               value={selectedCategory}
               onChange={handleCategoryChange}
               label="Categoría"
+              sx={{ marginBottom: '1rem' }}
             >
               <MenuItem value="">Seleccione</MenuItem>
               {categories.map((category) => (
@@ -60,21 +63,26 @@ const SearchBar = ({
             </Select>
           </FormControl>
         </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h6" component="h5" sx={{ fontWeight: 'bold' }}>Filtrar por Marca</Typography>
-          {brands.map((brand) => (
-            <FormControlLabel
-              key={brand}
-              control={
-                <Checkbox
-                  checked={selectedBrands.includes(brand)}
-                  onChange={handleBrandChange}
-                  value={brand}
-                />
-              }
-              label={brand}
-            />
-          ))}
+        <Grid item xs={12} sx={{ textAlign: 'center' }}>
+          <Typography variant="h6" component="h5" sx={{ fontWeight: 'bold', marginBottom: '1rem' }}>
+            Filtrar por Marca
+          </Typography>
+          <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+            {brands.map((brand) => (
+              <FormControlLabel
+                key={brand}
+                control={
+                  <Checkbox
+                    checked={selectedBrands.includes(brand)}
+                    onChange={handleBrandChange}
+                    value={brand}
+                  />
+                }
+                label={brand}
+                sx={{ marginRight: '1rem', marginBottom: '0.5rem' }}
+              />
+            ))}
+          </Box>
         </Grid>
       </Grid>
     </Box>

@@ -96,7 +96,7 @@ const ExpandableCard = ({ title, imageUrl, text }) => {
       <div
         style={{
           width: '100%',
-          maxWidth: isCardExpanded ? '40rem' : '20rem',
+          maxWidth: isCardExpanded ? '60rem' : '20rem',
           gap: '1rem',
           display: 'flex',
           flexDirection: 'column',

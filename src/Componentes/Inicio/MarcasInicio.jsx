@@ -32,19 +32,39 @@ const MarcasInicio = () => {
     return (
         <div style={containerStyle}>
             <Stack direction="row" spacing={2}>
-                <IconButton aria-label="Prolockers" style={iconButtonStyle}>
+                <IconButton 
+                    aria-label="Prolockers" 
+                    style={iconButtonStyle} 
+                    onClick={() => window.open('https://www.prolockers.cl', '_blank')}
+                >
                     <img src={prolockers} alt="Prolockers" style={imageStyle} />
                 </IconButton>
-                <IconButton aria-label="Milockers" style={iconButtonStyle}>
+                <IconButton 
+                    aria-label="Milockers" 
+                    style={iconButtonStyle} 
+                    onClick={() => window.open('https://milockers.cl', '_blank')}
+                >
                     <img src={milockers} alt="Milockers" style={imageStyle} />
                 </IconButton>
-                <IconButton aria-label="Prosillas" style={iconButtonStyle}>
+                <IconButton 
+                    aria-label="Prosillas" 
+                    style={iconButtonStyle} 
+                    onClick={() => window.open('https://prosillas.cl', '_blank')}
+                >
                     <img src={prosillas} alt="Prosillas" style={imageStyle} />
                 </IconButton>
-                <IconButton aria-label="Starimport" style={iconButtonStyle}>
+                <IconButton 
+                    aria-label="Starimport" 
+                    style={iconButtonStyle} 
+                    onClick={() => window.open('https://starimport.cl', '_blank')}
+                >
                     <img src={starimport} alt="Starimport" style={imageStyle} />
                 </IconButton>
-                <IconButton aria-label="Starpet" style={iconButtonStyle}>
+                <IconButton 
+                    aria-label="Starpet" 
+                    style={iconButtonStyle} 
+                    // onClick={() => window.open('https://', '_blank')}
+                >
                     <img src={starpet} alt="Starpet" style={imageStyle} />
                 </IconButton>
             </Stack>

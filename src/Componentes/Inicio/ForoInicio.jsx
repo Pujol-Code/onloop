@@ -1,5 +1,5 @@
 import React from 'react';
-import ExpandableCard from './ExpandableCard';
+import ExpandableCard from '../../Utils/ExpandableCard';
 
 const ForoInicio = () => {
   const containerStyle = {

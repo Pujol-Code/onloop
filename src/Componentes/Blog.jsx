@@ -1,14 +1,16 @@
 import React from 'react';
-import ExpandableCard from './Inicio/ExpandableCard';
+import ExpandableCard from '../Utils/ExpandableCard';
+import { Typography } from '@mui/material';
 
 const Blog = () => {
   const containerStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    gap: '10px',
+    gap: '20px',  // Espacio entre las tarjetas
     flexWrap: 'wrap',
     width: '100%',
+    padding: '0 20px',  // Espacio horizontal en los bordes
   };
 
   const wrapperStyle = {
@@ -27,6 +29,9 @@ const Blog = () => {
 
   return (
     <div style={wrapperStyle}>
+      <Typography variant="h4" align="center" gutterBottom>
+        Blog
+      </Typography>
       <div style={containerStyle}>
         <ExpandableCard
           title="Card 1"

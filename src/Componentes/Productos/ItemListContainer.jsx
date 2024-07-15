@@ -8,7 +8,6 @@ import { Box, Typography, Pagination } from '@mui/material';
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const [filteredProductos, setFilteredProductos] = useState([]);
-  const [titulo, setTitulo] = useState('Productos');
   const [searchText, setSearchText] = useState('');
   const [sortOption, setSortOption] = useState('default');
   const [selectedBrands, setSelectedBrands] = useState([]);
@@ -27,10 +26,8 @@ const ItemListContainer = () => {
       setCategories(allCategories);
       if (categoria) {
         productosFiltrados = res.filter((prod) => prod.categoria === categoria);
-        setTitulo(categoria);
         setSelectedCategory(categoria);
       } else {
-        setTitulo('Productos');
         setSelectedCategory('');
       }
       setProductos(productosFiltrados);
@@ -102,10 +99,10 @@ const ItemListContainer = () => {
         selectedCategory={selectedCategory}
         handleCategoryChange={handleCategoryChange}
       />
-      <Typography variant="h4" component="h4" sx={{ fontWeight: 'bold', marginTop: '1rem' }}>
-        {titulo}
+      <Typography variant="h4" component="h4" sx={{ fontWeight: 'bold', marginTop: '1rem', textAlign: 'center' }}>
+        Productos
       </Typography>
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center' }}>
         <ItemList productos={paginatedProductos} />
       </Box>
       {filteredProductos.length > itemsPerPage && (
