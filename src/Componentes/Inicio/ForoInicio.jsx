@@ -1,6 +1,11 @@
 import React from 'react';
 import ExpandableCard from '../../Utils/ExpandableCard';
 
+// Importa las imágenes locales
+import image1 from '../../Image/Blog/chico.jpg';
+import image2 from '../../Image/Blog/grande.jpeg';
+import image3 from '../../Image/Producto/4.svg';
+
 const ForoInicio = () => {
   const containerStyle = {
     display: 'flex',
@@ -19,17 +24,17 @@ const ForoInicio = () => {
     <div style={containerStyle}>
       <ExpandableCard
         title="Card 1"
-        imageUrl="https://via.placeholder.com/150"
+        imageSrc={image1} // Usar imagen local
         text={text1}
       />
       <ExpandableCard
         title="Card 2"
-        imageUrl="https://via.placeholder.com/150"
+        imageSrc={image2} // Usar imagen local
         text={text2}
       />
       <ExpandableCard
         title="Card 3"
-        imageUrl="https://via.placeholder.com/150"
+        imageSrc={image3} // Usar imagen local
         text={text3}
       />
     </div>

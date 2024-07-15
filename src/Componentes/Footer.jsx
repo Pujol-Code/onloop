@@ -1,5 +1,6 @@
-import { Box, Grid, Typography, Link, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Grid, Typography, useMediaQuery, useTheme } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import IsotipoOnLoop from '../Image/Footer/ONLOOP_ISOTIPO.svg';
 import FacebookLogo from '../Image/Footer/facebook.svg';
 import InstagramLogo from '../Image/Footer/instagram.svg';
@@ -67,21 +68,21 @@ const Footer = () => {
         {isSmallScreen ? (
           <>
             <br />
-            <Link href="/terms" color="inherit">
+            <Link to="/terms" style={{ color: 'inherit', textDecoration: 'none' }}>
               Terms of Service
             </Link>
             {' | '}
-            <Link href="/privacy" color="inherit">
+            <Link to="/privacy" style={{ color: 'inherit', textDecoration: 'none' }}>
               Privacy Policy
             </Link>
           </>
         ) : (
           <span style={{ marginLeft: '16px' }}>
-            <Link href="/terms" color="inherit">
+            <Link to="/terms" style={{ color: 'inherit', textDecoration: 'none' }}>
               Terms of Service
             </Link>
             {' | '}
-            <Link href="/privacy" color="inherit">
+            <Link to="/privacy" style={{ color: 'inherit', textDecoration: 'none' }}>
               Privacy Policy
             </Link>
           </span>
