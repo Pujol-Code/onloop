@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MagicCard } from 'react-magic-motion';
 import 'react-magic-motion/card.css';
 
+// Funciones SVG para los iconos de pantalla completa
 function CloseFullscreenSvg() {
   return (
     <>
@@ -84,7 +85,8 @@ function OpenFullscreenSvg() {
   );
 }
 
-const ExpandableCard = ({ title, imageUrl, text }) => {
+// Componente ExpandableCard modificado para aceptar imágenes locales
+const ExpandableCard = ({ title, imageSrc, text }) => {
   const [isCardExpanded, setIsCardExpanded] = useState(false);
 
   return (
@@ -118,7 +120,7 @@ const ExpandableCard = ({ title, imageUrl, text }) => {
             borderRadius: '4px',
           }}
           alt={title}
-          src={imageUrl}
+          src={imageSrc} // Asegúrate de que esta ruta es correcta
         />
         <p>{isCardExpanded ? text : text.split(' ').slice(0, 20).join(' ') + '...'}</p>
         <button
