@@ -128,7 +128,7 @@ const Navbar = ({ fixed }) => {
         <>
       <LogoButton to="/" />
         <CancelButton component={Link} to="/" variant="outlined">
-          Cancelar pedido
+          Seguir comprando
         </CancelButton>
         </>
       ) : (
