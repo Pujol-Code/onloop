@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/onloop/static/css/main.0da2a9c3.css",
-    "main.js": "/onloop/static/js/main.a026d099.js",
+    "main.js": "/onloop/static/js/main.e1d4130c.js",
     "static/media/8.jpg": "/onloop/static/media/8.9ef60d70777366235dae.jpg",
     "static/media/banner.png": "/onloop/static/media/banner.aaa622aac44e29b159da.png",
     "static/media/4.jpg": "/onloop/static/media/4.0a78f99a860a0b9fa1a4.jpg",
@@ -28,31 +28,31 @@
     "static/media/19.jpg": "/onloop/static/media/19.667504377c3132de2454.jpg",
     "static/media/21.jpg": "/onloop/static/media/21.cfb19880c14e9b91f171.jpg",
     "static/media/14.jpg": "/onloop/static/media/14.9b32a39303624de443db.jpg",
-    "static/media/4.svg": "/onloop/static/media/4.05cb324854381942414d40b70a4d6299.svg",
+    "static/media/4.svg": "/onloop/static/media/4.08fd833d21f47db0c7141a598efe7353.svg",
     "static/media/12.jpg": "/onloop/static/media/12.ad1a319ec8edb73221d4.jpg",
-    "static/media/CARRITO.svg": "/onloop/static/media/CARRITO.005ba12ae432dca0747493f58a6722be.svg",
-    "static/media/ONLOOP_ISOTIPO.svg": "/onloop/static/media/ONLOOP_ISOTIPO.c8a172eb7f16bace5bde282182c92950.svg",
-    "static/media/STARIMPORT_LOGO.svg": "/onloop/static/media/STARIMPORT_LOGO.f3d500f564821ce17264ac22c2632469.svg",
-    "static/media/PROLOCKERS_LOGO.svg": "/onloop/static/media/PROLOCKERS_LOGO.84ba2b4af7b50c869aa678ce4c6ea6eb.svg",
-    "static/media/PROSILLAS_LOGO.svg": "/onloop/static/media/PROSILLAS_LOGO.175f99ef10b1c44f759810249e7915b1.svg",
-    "static/media/STARPET_LOGO.svg": "/onloop/static/media/STARPET_LOGO.1eafe096f4bf7f6b72717169f6c5dae2.svg",
-    "static/media/MILOCKERS_LOGO.svg": "/onloop/static/media/MILOCKERS_LOGO.8cdc1e605d527fa88e3fc00b6ccff356.svg",
-    "static/media/visa.svg": "/onloop/static/media/visa.0744bcbd8286fb95c055159cca4d169e.svg",
-    "static/media/LOGO_ONLOOP.svg": "/onloop/static/media/LOGO_ONLOOP.5c4173a8a8daae03314a8543a3cb07db.svg",
-    "static/media/facebook.svg": "/onloop/static/media/facebook.0f17ebfb4422a5cfe87c21f740a5fefe.svg",
-    "static/media/instagram.svg": "/onloop/static/media/instagram.fe2ff42ac35007fba6237e8b55c7378c.svg",
-    "static/media/usuario.svg": "/onloop/static/media/usuario.0f1fda7650d01911765ab6b7008a3282.svg",
-    "static/media/tarjeta.svg": "/onloop/static/media/tarjeta.9232a04fd9067a2695287ee62096c53d.svg",
-    "static/media/mercadopago.svg": "/onloop/static/media/mercadopago.222433dab1040eb49c0229cd492b2303.svg",
+    "static/media/CARRITO.svg": "/onloop/static/media/CARRITO.6e7f796d3d9f50761a7d84ed7fb2b141.svg",
+    "static/media/ONLOOP_ISOTIPO.svg": "/onloop/static/media/ONLOOP_ISOTIPO.c2e38f05e7bece10dfa030e8b5846b3d.svg",
+    "static/media/STARIMPORT_LOGO.svg": "/onloop/static/media/STARIMPORT_LOGO.a0b84ff91aaa948f756cd1aeaacfcb13.svg",
+    "static/media/PROLOCKERS_LOGO.svg": "/onloop/static/media/PROLOCKERS_LOGO.3b44a0518630dc13e09a5943fc1dee4b.svg",
+    "static/media/PROSILLAS_LOGO.svg": "/onloop/static/media/PROSILLAS_LOGO.217552c81d6621f01dd5da7f1231f12e.svg",
+    "static/media/STARPET_LOGO.svg": "/onloop/static/media/STARPET_LOGO.1e103ca01deb6d4381a29a9cd90fbc69.svg",
+    "static/media/MILOCKERS_LOGO.svg": "/onloop/static/media/MILOCKERS_LOGO.e30e8c8640ca9538bcdb75e2786101c2.svg",
+    "static/media/visa.svg": "/onloop/static/media/visa.00f6440b98f6133f92c8fa7816c95bfe.svg",
+    "static/media/LOGO_ONLOOP.svg": "/onloop/static/media/LOGO_ONLOOP.caf75d5390a056a0d9632c179ffe6a0c.svg",
+    "static/media/facebook.svg": "/onloop/static/media/facebook.262dbbef373800501447d5487dae1799.svg",
+    "static/media/instagram.svg": "/onloop/static/media/instagram.8218b0f1cb5d8d987a4c447da8d46310.svg",
+    "static/media/usuario.svg": "/onloop/static/media/usuario.cfe481fd504f099d952b9682e548fcee.svg",
+    "static/media/tarjeta.svg": "/onloop/static/media/tarjeta.51b546e4b853e6445ba88b6cfd84e6ca.svg",
+    "static/media/mercadopago.svg": "/onloop/static/media/mercadopago.370d4b39ca9e41fbd37f2ca9dd70802c.svg",
     "static/media/revicons.eot": "/onloop/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/onloop/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/onloop/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/onloop/index.html",
     "main.0da2a9c3.css.map": "/onloop/static/css/main.0da2a9c3.css.map",
-    "main.a026d099.js.map": "/onloop/static/js/main.a026d099.js.map"
+    "main.e1d4130c.js.map": "/onloop/static/js/main.e1d4130c.js.map"
   },
   "entrypoints": [
     "static/css/main.0da2a9c3.css",
-    "static/js/main.a026d099.js"
+    "static/js/main.e1d4130c.js"
   ]
 }
